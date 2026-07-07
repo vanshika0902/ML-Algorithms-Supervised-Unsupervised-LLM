@@ -15,6 +15,11 @@ df_test = pd.read_csv('/path/to/test.csv')
 print(df_train.info())
 print(df_test.info())
 
+# check for number of unique values in the data 
+# if LESS i.e. - LOW CARDINALITY - use ONE HOT ENCODING
+
+print(df_train.nunique())
+print(df_test.nunique())
 
 # null imputations
 
@@ -39,6 +44,9 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_valid)
 
 print(accuracy_score(y_valid,y_pred))
+print(precision_score(y_valid,y_pred))
+print(roc_auc_score(y_valid,y_pred))
 
+## can change things and re-test with validation dataset and accordingly proceed with test dataset
 
 
