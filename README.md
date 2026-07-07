@@ -1,4 +1,4 @@
-# ML_lessons_and_EDA
+# ML_Algorithms_and_EDA
 
 Contains code & understanding of all ML algorithms. Repo also contains Exploratory Data Analysis techniques. 
 
