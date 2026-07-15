@@ -5,3 +5,8 @@
 - Repeat for the next points.
 - Calculate the mean of clusters. 
 - Then again calculate distance of each point from mean. 
+- Change the initial points and check when we get the least variation.
+
+- **How to choose K?**
+  - Plot Number of Clusters (K) on x-axis & Reduction in Variation on y-axis.
+  - Find elbow point. (post elbow point there is not much reduction in Variation)
