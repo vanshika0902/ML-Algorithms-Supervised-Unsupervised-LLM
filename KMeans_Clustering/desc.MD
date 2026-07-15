@@ -1,4 +1,4 @@
-** Algo**
+**Algo**
 
 - Select the # of clusters you want identify in your data. This is "K" in K-Means Clustering.
 - Ex: We select K as 3. Randomly select 3 distinct data points
@@ -19,3 +19,11 @@
 
 - K-means Clsutering specifically tries to put the data into the number of clusters you tell it to.
 - Heirarchical Clustering just tells you, pairwise, what two things are most similar.
+
+**Application of K-Means Clustering**
+
+- Customer segmentation in market
+- Image compression & segmentation
+- Anomaly detection in cybersecurity
+- Document clustering in Natural Language Processing
+- Recommendation system in e-commerce
