@@ -14,5 +14,7 @@
   - Plot Number of Clusters (K) on x-axis & Reduction in Variation on y-axis.
   - Find elbow point. (post elbow point there is not much reduction in Variation)
 
-**Diff between K-means clustering vs
+**Diff between K-means clustering & Hierarchical clustering**
 
+- K-means Clsutering specifically tries to put the data into the number of clusters you tell it to.
+- Heirarchical Clustering just tells you, pairwise, what two things are most similar.
