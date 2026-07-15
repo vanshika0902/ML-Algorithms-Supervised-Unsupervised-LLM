@@ -1,1 +1,5 @@
-
+- Select the # of clusters you want identify in your data. This is "K" in K-Means Clustering.
+- Ex: We select K as 3. Randomly select 3 distinct data points
+- Measure the distance between 1st point & the three initial clusters.
+- Assign the 1st point to the nearest cluster.
+- Repeat for the next points.
