@@ -1,3 +1,5 @@
+** Algo**
+
 - Select the # of clusters you want identify in your data. This is "K" in K-Means Clustering.
 - Ex: We select K as 3. Randomly select 3 distinct data points
 - Measure the distance between 1st point & the three initial clusters.
@@ -7,6 +9,10 @@
 - Then again calculate distance of each point from mean. 
 - Change the initial points and check when we get the least variation.
 
-- **How to choose K?**
+
+**How to choose K?**
   - Plot Number of Clusters (K) on x-axis & Reduction in Variation on y-axis.
   - Find elbow point. (post elbow point there is not much reduction in Variation)
+
+**Diff between K-means clustering vs
+
