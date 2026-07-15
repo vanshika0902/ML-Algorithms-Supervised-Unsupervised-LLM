@@ -3,3 +3,5 @@
 - Measure the distance between 1st point & the three initial clusters.
 - Assign the 1st point to the nearest cluster.
 - Repeat for the next points.
+- Calculate the mean of clusters. 
+- Then again calculate distance of each point from mean. 
