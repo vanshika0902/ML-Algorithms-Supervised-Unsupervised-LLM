@@ -5,4 +5,8 @@
 - Process : Take a heatmap, check with two clusters and similar merge them & then again start the same process.
 - Similarity is measured using Euclidean distance. (sq root of sq of differences between samples) 
 - We can use Manhattan distance too (abs value of differences)
-- Also dendrogram is there. 
+- Also dendrogram is there.
+- Coded using : AgglomerativeClustering (from sklearn.cluster import AgglomerativeClustering)
+- Applications
+  - Topic Modeling: Organizing thousands of news articles or search results into hierarchical themes (e.g., Sports → Football → Premier League).
+  - Recommendation Engines: Grouping similar content, movies, or products together based on user engagement metrics.
