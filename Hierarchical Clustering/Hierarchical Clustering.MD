@@ -1,3 +1,7 @@
 - Uses heatmap 
 - What is heatmap? Graphical Representation of data where colors represent magnitude of values.
 - Instead of reading numbers from a table, you can quickly identify patterns, trends, high values & low values based on color intensity.
+- Process : Take a heatmap, check with two clusters and similar merge them & then again start the same process.
+- Similarity is measured using Euclidean distance. (sq root of sq of differences between samples) 
+- We can use Manhattan distance too (abs value of differences)
+- Also dendrogram is there. 
