@@ -1,1 +1,3 @@
-
+- Uses heatmap 
+- What is heatmap? Graphical Representation of data where colors represent magnitude of values.
+- Instead of reading numbers from a table, you can quickly identify patterns, trends, high values & low values based on color intensity.
