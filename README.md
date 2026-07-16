@@ -2,8 +2,7 @@
 
 Contains code & understanding of all ML algorithms. Repo also contains Exploratory Data Analysis techniques. 
 
-Algorithms :
+Clustering Algorithms :
 
-- **XGBoost Classification**: Extreme Gradient Boosting Algorithms. Ensemble technique. Builds models in sequential manner - using residuals from previous model. It aims at reducing log loss (cross-entropy) metric.
-- **XGBoost Regression**: Extreme Gradient Boosting Algorithms. Ensemble technique. Builds models in sequential manner - using residuals from previous model. It aims at reducing squared error loss.
-- **Random Forest Classification** : Ensemble technique. Builds models in parallel manner. 
+- **K-Means Clustering** : An unsupervised learning Algorithm, used to partition data into clusters based on similarity.
+- **Hierarchical Clustering** : An unsupervised learning Algorithm, that groups similar data points into a tree-like hierarchy (dendrogram) based on their similarity. 
