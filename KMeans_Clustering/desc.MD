@@ -10,6 +10,14 @@
 - Then again calculate distance of each point from mean. 
 - Change the initial points and check when we get the least variation.
 
+**Objective**
+
+- Minimize the sum of squared distances between points and their cluster centroids. (Within-Cluster Sum of Squares (WCSS))
+
+**Points to keep in mind**
+
+- Scaling is imp in clustering otherwise well balanced clusters are not created. The larger scale feature dominates in case scaling not done.
+
 
 **How to choose K?**
   - Plot Number of Clusters (K) on x-axis & Reduction in Variation on y-axis.
