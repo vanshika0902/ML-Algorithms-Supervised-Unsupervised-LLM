@@ -64,9 +64,9 @@ How do handle missing data?
 
 Missing%	Typical approach
 
- < 5%	Simple imputation
- 5–30%	More advanced imputation (KNN, MICE)
- > 40–50%	Consider dropping the feature if it's not important
+ |< 5%	    | Simple imputation
+ |5–30%	    | More advanced imputation (KNN, MICE)
+ |> 40–50%	| Consider dropping the feature if it's not important
 
 **Step 3** : Choose Imputation type
 
