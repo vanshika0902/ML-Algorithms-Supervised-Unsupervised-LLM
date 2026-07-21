@@ -53,5 +53,23 @@ Fun Facts
 - While building a decision tree, the algorithm evaluates all possible splits and computes an impurity metric such as Gini impurity or entropy. It selects the split that produces the largest reduction in impurity, creating child nodes that are as pure as possible. This process is repeated recursively until the stopping criteria are met.
 -------------------------------------------------------------------------------------------------------------------------------------
 
- 
+How do handle missing data?
 
+**Step 1** : check type of missingness (MCAR, MAR, MNCAR) 
+- MCAR : Missing Completely At Random - use **simple imputation**
+- MAR : Missing At Random - Missingness depends on another feature.
+- MNAR : Missing Not At Random - Requires domain knowledege
+
+**Step 2**: Check how much data is missing
+Missing%	Typical approach
+< 5%	Simple imputation
+5–30%	More advanced imputation (KNN, MICE)
+> 40–50%	Consider dropping the feature if it's not important
+
+**Step 3** : Choose Imputation type
+
+- Mean Imputation
+- Median Imputation
+- KNN Imputation
+- MICE (Multiple Imputation by Chained Equations)
+- For Categorical Variables : Mode Imputation
