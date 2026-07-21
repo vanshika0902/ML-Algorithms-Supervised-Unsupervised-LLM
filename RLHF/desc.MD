@@ -20,11 +20,11 @@ Suppose the prompt is:
 
 "Write a polite email asking for an interview."
 
-** Stage 1 (Pretraining) **
+**Stage 1 (Pretraining)**
 
 The model learns English and email structure from large text corpora.
 
-** Stage 2 (SFT) **
+**Stage 2 (SFT)**
 
 It sees examples like:
 
@@ -34,7 +34,7 @@ I hope you're doing well...
 
 and learns to imitate them.
 
-** Stage 3 (Human Preferences) **
+**Stage 3 (Human Preferences)**
 
 Three responses are generated.
 
@@ -56,11 +56,11 @@ Humans rank:
 B > C > A
 
 
-** Stage 4 (Reward Model) **
+**Stage 4 (Reward Model)**
 
 The reward model learns to assign the highest score to responses similar to B.
 
-** Stage 5 (RL) **
+**Stage 5 (RL)**
 
 The chat model is updated so future responses are more likely to resemble highly rated ones.
 
