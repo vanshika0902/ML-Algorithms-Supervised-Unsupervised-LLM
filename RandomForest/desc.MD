@@ -1,4 +1,4 @@
-Decision Trees are 
+**Decision Trees** are 
 
 - easy to build
 - easy to use 
@@ -11,7 +11,8 @@ Decision Trees are
     - Post-pruning (Grow the full tree, then remove branches that do not improve validation performance (cost-complexity pruning))
     - Use ensemble (Random Forest, Gradient Boosting)
 
-Random Forest (Bagging Algo - Bootstrapping the data + aggregating it)
+---------------------------------------------------------------------------------------------------------------------------------
+**Random Forest (Bagging Algo - Bootstrapping the data + aggregating it)**
 
 Steps to build 
  
