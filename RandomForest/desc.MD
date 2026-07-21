@@ -48,7 +48,8 @@ Fun Facts
 
 - Random Forest natively supports **multiclass classification**
 - from sklearn.ensemble import RandomForestClassifier
-- Though in theory categorical variables are okay to use in algo, sklearn does not support it, encoding needs to be done.
+- **Encoding** : Though in theory categorical variables are okay to use in algo, sklearn does not support it, encoding needs to be done.
+- **Feature Scaling** : Not required, algo creates splits basis comparision condition.
 - While building a decision tree, the algorithm evaluates all possible splits and computes an impurity metric such as Gini impurity or entropy. It selects the split that produces the largest reduction in impurity, creating child nodes that are as pure as possible. This process is repeated recursively until the stopping criteria are met.
 -------------------------------------------------------------------------------------------------------------------------------------
 
