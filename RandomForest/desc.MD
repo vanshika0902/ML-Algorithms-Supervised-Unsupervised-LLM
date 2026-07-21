@@ -61,8 +61,9 @@ How do handle missing data?
 - MNAR : Missing Not At Random - Requires domain knowledege
 
 **Step 2**: Check how much data is missing
+
 Missing%	Typical approach
-< 5%	Simple imputation
+ < 5%	Simple imputation
 5–30%	More advanced imputation (KNN, MICE)
 > 40–50%	Consider dropping the feature if it's not important
 
