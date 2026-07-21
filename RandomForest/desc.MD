@@ -20,6 +20,7 @@ Steps to build
 - Step 2 : Create a decision tree using the bootstrapped dataset, but only use a random subset of variables (or columns) at each step.
 - Step 3 : Repeat Step 1 & Step 2.
 
+---------------------------------------------------------------------------------------------------------------------------------
 Reason why **Random Forest** is better than **Decision Tree**
 
 Each tree:
@@ -29,22 +30,27 @@ Each tree:
 - If one tree makes a mistake because it overfit, the other trees usually correct it.
 - slightly higher bias, but low variance
 
+-------------------------------------------------------------------------------------------------------------------------------------
 Final Prediction 
 
 - Majority Votes (in case of Classification)
 - Averaging (in case of Regression)
 
+-------------------------------------------------------------------------------------------------------------------------------------
 Test its working 
 
 - Using - OOB (Out of Bag) dataset - data that was not included in the bootstrap dataset.
 - OOB Error : Proportion of samples that were incorrectly classified
 - We can use OOB Error/Accuracy to see how many variables we should select at Step 2. (Usually we start we use square of variables and then do & less)
 
+-------------------------------------------------------------------------------------------------------------------------------------
 Fun Facts
 
 - Random Forest natively supports **multiclass classification**
 - from sklearn.ensemble import RandomForestClassifier
+- Though in theory categorical variables are okay to use in algo, sklearn does not support it, encoding needs to be done.
 - While building a decision tree, the algorithm evaluates all possible splits and computes an impurity metric such as Gini impurity or entropy. It selects the split that produces the largest reduction in impurity, creating child nodes that are as pure as possible. This process is repeated recursively until the stopping criteria are met.
+-------------------------------------------------------------------------------------------------------------------------------------
 
  
 
