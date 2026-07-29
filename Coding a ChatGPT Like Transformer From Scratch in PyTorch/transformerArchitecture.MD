@@ -20,7 +20,8 @@ Steps:
 
    - The computer can not understand words - only numbers
    - Each word is converted in numbers
-       -"What" : [0.3, 1.2, -0.5, ...]
+
+      -"What" : [0.3, 1.2, -0.5, ...]
       - "is" : [1.1, -0.8, 0.7, ....]
       - "awesome" : [0.6, 2.4, 0.1, ...]
 
