@@ -51,6 +51,22 @@ Steps:
 ***STEP 4***
 
 - *Residual Connection*
+   - Old information + New information = Better information
+
+
+***STEP 5***
+
+- *Fully Connected Layer*
+   - Old information + New information = Better information
+
+***STEP 6***
+
+- *Softmax*
+  - Now the model picks the most likely word (or samples one based on these probabilities)
+
+
+
+
 
 
 
