@@ -45,11 +45,8 @@ Steps:
 
     StatQuest ✔ (70%)
 
-
-***STEP 4***
-
-- *Query, Key, Value*
-  - The Query asks "Which other words should I pay attention to?". The Keys help compare. The Values contain the information to use.
+ - *Query, Key, Value*
+   - The Query asks "Which other words should I pay attention to?". The Keys help compare. The Values contain the information to use.
 
 
 
