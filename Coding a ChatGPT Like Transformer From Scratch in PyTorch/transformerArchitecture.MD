@@ -48,6 +48,10 @@ Steps:
  - *Query, Key, Value*
    - The Query asks "Which other words should I pay attention to?". The Keys help compare. The Values contain the information to use.
 
+***STEP 4***
+
+- *Residual Connection*
+
 
 
 
