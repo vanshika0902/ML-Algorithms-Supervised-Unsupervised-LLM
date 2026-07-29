@@ -14,7 +14,7 @@
 
 Steps:
 
-*STEP 1*
+***STEP 1***
 
 - *Word Embedding*
 
@@ -25,9 +25,9 @@ The computer can not understand words - only numbers
   - "is" : [1.1, -0.8, 0.7, ....]
   - "awesome" : [0.6, 2.4, 0.1, ...]
 
-*STEP 2*
+***STEP 2***
 
-- *Word Embedding*
+- *Positional Encoding*
 
 
 
