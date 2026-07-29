@@ -2,9 +2,9 @@
 
 - The architecture behind models like **GPT**
 
-Problem Statement: 
+**Problem Statement**: 
 
-- Imagine input sentence as : "What is StatQuest awesome"
+- Imagine input sentence to model as : "What is StatQuest awesome"
 - Task of model is to predict the next word
 - Input to model is : What is StatQuest awesome <EOS>
 - EOS means End of Sentence
