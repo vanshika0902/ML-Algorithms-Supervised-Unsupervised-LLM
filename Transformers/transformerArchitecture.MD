@@ -30,7 +30,8 @@ Steps:
 ***STEP 2***
 
 - *Positional Encoding*
-   - Useful to understand which place the words comes on 
+   - Useful to understand which place the words comes on
+   - Using sine & cosine curves
    - Word embedding + Position embedding
    - Embedding : [0.3,1.2,-0.5]; Position 1 : [0.1,0.1,0.1]; Final : [0.4,1.3,-0.4]
 
