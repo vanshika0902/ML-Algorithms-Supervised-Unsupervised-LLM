@@ -1,1 +1,2 @@
-
+- Create word embedding using simple neural network
+- After training, the words that are similar (great, awesome) get similar embeddings.
