@@ -2,13 +2,20 @@
 
 - The architecture behind models like **GPT**
 - GPT uses decoder-only because it is autoregressive task : Next-Word Prediction: It focuses entirely on guessing the next token based on previous tokens.
-- Primary uses : Text Generation, Open ended chat, Code completion.
+- **Primary uses** : Text Generation, Open ended chat, Code completion.
 - Encoder-Decoder required for Sequence-2-Sequence tasks such as Machine Translation (Changing English to French)
 
 **Features**
 - Uni-directional
 - Auto-regressive
 - Masked self-attention & cross attention
+
+**Model**
+- GPT (OpenAI)
+- Gemini (Google)
+- LLAMA (Meta)
+- Gemma (Google)
+- Mistral
 
 **Problem Statement**: 
 
