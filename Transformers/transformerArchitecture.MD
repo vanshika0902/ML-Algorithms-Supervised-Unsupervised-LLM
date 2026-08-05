@@ -55,7 +55,7 @@ Steps:
 ***STEP 4***
 
 - *Residual Connection*
-   - Old information + New information = Better information
+   - Old information
 
 
 ***STEP 5***
