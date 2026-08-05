@@ -5,6 +5,11 @@
 - Primary uses : Text Generation, Open ended chat, Code completion.
 - Encoder-Decoder required for Sequence-2-Sequence tasks such as Machine Translation (Changing English to French)
 
+**Features**
+- Uni-directional
+- Auto-regressive
+- Masked self-attention & cross attention
+
 **Problem Statement**: 
 
 - Imagine input sentence to model as : "What is StatQuest awesome"
@@ -67,6 +72,7 @@ Steps:
 
 - *Softmax*
   - Now the model picks the most likely word (or samples one based on these probabilities)
+
 
 
 
