@@ -1,3 +1,4 @@
 - Create word embedding using simple neural network
 - After training, the words that are similar (great, awesome) get similar embeddings.
 - Uses Self-Attention
+- After all the steps, something called context-aware embeddings is created.
