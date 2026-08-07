@@ -10,6 +10,8 @@
 - Auto-regressive
 - Masked self-attention & cross attention
 - **Muti-head attention**: Multiple attention heads allow the model to learn different types of relationships between tokens simultaneously. Different heads can      specialize in things such as syntactic relationships, coreference, or long-range dependencies.
+- GPT Training = predict → calculate error → update weights → repeat
+- Loss function : cross-entropy loss (-log(probability of correct token))
 
 **Model**
 - GPT (OpenAI)
