@@ -1,6 +1,6 @@
 # ML Algorithms
 
-This repo takes reference from StatsQuest Lectures (present in Youtube).
+**This repo takes reference from StatsQuest Lectures (present in Youtube).**
 
 Contains code & understanding of all ML algorithms. Repo also contains Exploratory Data Analysis techniques. 
 
