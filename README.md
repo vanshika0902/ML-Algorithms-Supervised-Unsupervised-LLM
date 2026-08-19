@@ -1,4 +1,4 @@
-# ML_Algorithms_and_EDA
+# ML Algorithms
 
 This repo takes reference from StatsQuest Lectures (present in Youtube).
 
