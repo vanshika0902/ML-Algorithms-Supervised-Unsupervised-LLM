@@ -2,7 +2,16 @@
 
 
 
+
+
+
+
 **Label Encoding**
+
+
+
+
+
 
 
 
@@ -11,4 +20,12 @@
 
 
 
+
+
+
+
 **Target Encoding**
+
+
+
+
