@@ -1,4 +1,4 @@
-Why categorical encoding is required?
+**Why categorical encoding is required?**
 
 Categorical variables contain information, but their values don't inherently have the numerical structure that ML algorithms expect.
 So we need to decide how to represent that categorical information without introducing misleading relationships or excessive dimensionality.
@@ -21,7 +21,7 @@ One-hot encoding → Ordinal encoding → Target encoding → Frequency encoding
 - 2nd code execution is better
 - When we dont have many categories in the column - best, because it does not introduce any relationship
 
-- 
+
 **Label Encoding**
 
 - Simply converting the discrete values to random numbers.
@@ -48,15 +48,3 @@ One-hot encoding → Ordinal encoding → Target encoding → Frequency encoding
 - Fold 3 ────────→ encode using Folds 1,2,4,5
 - Fold 4 ────────→ encode using Folds 1,2,3,5
 - Fold 5 ────────→ encode using Folds 1-4
-
-
-
-
-
-
-
-**Target Encoding**
-
-
-
-
