@@ -7,7 +7,9 @@
 - Repeat these steps.
 
 
-*Terminology*
+**Terminology**
 
-- Environment : Something we want to explore & can interact with.
-- Agent : 
+- *Environment* : Something we want to explore & can interact with.
+- *Agent* : One who can explore and interact with the environment.
+- *Policy* : Probabilities 
+- *Reward* : Something that is used to upate the policy/probability (Fry Score in this case).
