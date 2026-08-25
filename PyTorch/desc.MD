@@ -1,1 +1,2 @@
-
+- Using PyTorch : to create Neural Network.
+- Using Matplotlib & Seaborn : to create Graphs
