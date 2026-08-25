@@ -7,6 +7,7 @@
 - Repeat these steps.
 
 
-**Terminology**
+*Terminology*
 
 - Environment : Something we want to explore & can interact with.
+- Agent : 
