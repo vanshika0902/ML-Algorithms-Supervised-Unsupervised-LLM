@@ -5,3 +5,8 @@
 - Pick num between 0 & 1 - visit that shop and update probability basis taste of fries using below formula:
 - New p(norm) = p(norm) + Learning_Rate * (Fry Score - p(norm)).
 - Repeat these steps.
+
+
+**Terminology**
+
+- Environment : Something we want to explore & can interact with.
