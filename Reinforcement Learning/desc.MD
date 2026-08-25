@@ -11,9 +11,12 @@
 
 - *Environment* : Something we want to explore & can interact with.
 - *Agent* : One who can explore and interact with the environment.
+- *Action*
 - *Policy* : Probabilities 
 - *Reward* : Something that is used to upate the policy/probability (Fry Score in this case).
 - *State* : Current state of the agent
+
+Need to remember AREA 51 (Agent, Reward, Environment, Action)
 
 **Flow**
 
