@@ -13,6 +13,11 @@
 - *Agent* : One who can explore and interact with the environment.
 - *Policy* : Probabilities 
 - *Reward* : Something that is used to upate the policy/probability (Fry Score in this case).
+- *State* : Current state of the agent
+
+**Flow**
+
+State → Action → Reward → New State → Action → ...
 
 **Goal**
 
